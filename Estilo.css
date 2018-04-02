@@ -1,0 +1,114 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background: rgba(192,192,192,0.7);
+	display: flex;
+	min-height: 100vh;
+	flex-wrap: wrap;
+	margin-right:85px; 
+	margin-left:85px;
+}
+
+header{
+	background: rgba(87,136,192,0.7);
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #0c0bfe;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+	overflow:hidden;
+	margin-bottom: 20px;
+    font-family: "ALGERIAN";
+	font-size: 25px;
+} 
+
+.encabezado{
+	text-align: justify;
+}
+article{
+	background: rgba(20,20,20,0.6);
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #DDD;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+	overflow:hidden;
+	margin-bottom: 20px;
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+section{
+	background: rgba(20,20,20,0.6);
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #DDD;
+	margin: 1em auto;
+	padding: 1em;
+	width: 52%;
+	height: 350px;
+	overflow:hidden;
+	margin-bottom: 20px;
+	font-family: "CASTELLAR";
+	font-size: 16px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+.invitacion{
+	text-align: center;
+}
+
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	text-align: justify;
+}
+
+aside{
+	background: rgba(20,20,20,0.45);
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #DDD;
+	margin: 1em auto;
+	padding: 1em;
+	width: 30%;
+	height: 350px;
+	overflow:hidden;
+	margin-bottom: 20px;
+	font-family: "Arial";
+	font-size: 16px;
+	float: right;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.aside{
+	font-size: 18px;
+}
+footer{
+	background: rgba(87,136,192,0.5);
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #00050a;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+	overflow:hidden;
+	margin-bottom: 20px;
+	font-family: "Arial";
+	font-size: 16px;
+	text-decoration: none;
+	clear: both;
+}

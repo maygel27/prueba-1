@@ -1,0 +1,179 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+/*estilos generales*/
+
+body{
+
+	background: #2f3640;
+
+}
+
+
+.container{
+
+width: 950px;
+margin:auto;
+margin-top: 60;
+background: url(img/fondo.jpg);
+}
+
+
+header{
+	
+	border-radius: 0.1em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: white;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+	overflow:hidden;
+	margin-bottom: 20px;
+    font-family: "ALGERIAN";
+	font-size: 20px;
+} 
+
+
+
+
+
+/*menus */
+
+
+
+.navegacion ul {
+	list-style: none;
+	
+} 
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+}
+
+	
+
+
+.navegacion ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 70px;
+	font: bold 12px Arial;
+	color: #FFF;
+	text-decoration: none;
+	
+} 
+
+.navegacion ul li a:hover {
+	color:#3B3B3B;
+	background: url(img/navigation-hover.png) repeat-x left top;
+}
+
+.navegacion ul li#active a {
+	color:#3B3B3B;
+	background: url(img/navigation-hover.png) repeat-x left top;
+}
+
+
+
+/*opción menu 2*/
+
+
+/*.navegacion{
+	width: 1000px;
+	margin: 10px auto;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+*/ 
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 50px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+section{
+
+	width: 750px;
+	height: 450px;
+	margin-top: 10px;
+	background: white;
+	float:left;
+}
+
+aside{
+
+	width: 185px;
+	height: 370px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background: white;
+	float: left;
+	margin-left: 15px;
+	box-shadow: 0px 5px #000000;
+
+}
+
+aside:nth-of-type(1)
+{
+
+height:50px;
+background-color: #ddd;
+}
+
+footer{
+
+clear: both;
+width: 950px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+
+}
